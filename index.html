@@ -1,12 +1,20 @@
-<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<HTML>
-   <HEAD>
-      <TITLE>
-         A Small Hello 
-      </TITLE>
-   </HEAD>
-<BODY>
-   <H1>Hi</H1>
-   <P>This is very minimal "hello world" HTML document.</P> 
-</BODY>
-</HTML>
+<<!DOCTYPE html>
+<html>
+<body>
+
+<p><strong>Note:</strong> This example does not work in Internet Explorer and Safari.</p>
+
+<svg width="600" height="600">
+  <g transform="translate(100,100)"> 
+    <text id="TextElement" x="0" y="0" style="font-family:Verdana;font-size:24; visibility:hidden"> It's KINKY!
+      <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze" />
+      <animateMotion path="M 0 0 L 100 100" begin="1s" dur="5s" fill="freeze" />
+      <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="5s" fill="freeze" /> 
+      <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="5s" fill="freeze" /> 
+    </text> 
+  </g> 
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+</body>
+</html>
